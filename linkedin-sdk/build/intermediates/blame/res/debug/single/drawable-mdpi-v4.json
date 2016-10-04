@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/coreylee/Downloads/li-android-sdk/linkedin-sdk/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
-        "source": "/Users/coreylee/Downloads/li-android-sdk/linkedin-sdk/src/main/res/drawable-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/coreylee/Desktop/Recruitr/linkedin-sdk/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
         "source": "/Users/coreylee/Desktop/Recruitr/linkedin-sdk/src/main/res/drawable-mdpi/ic_launcher.png"
     }
