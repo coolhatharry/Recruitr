@@ -31,4 +31,66 @@
         android:layout_marginStart="20sp"
         android:layout_toEndOf="@id/profile_picture" />
 
+    <TextView
+        android:id="@+id/headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginStart="20sp"
+        android:layout_toEndOf="@id/profile_picture" />
+
+    <TextView
+        android:id="@+id/location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headline"
+        android:layout_marginStart="20sp"
+        android:layout_toEndOf="@id/profile_picture" />
+
+    <TextView
+        android:id="@+id/industry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location_name"
+        android:layout_marginStart="20sp"
+        android:layout_toEndOf="@id/profile_picture" />
+
+    <View
+        android:id="@+id/page_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/industry"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/page_2"
+        android:layout_marginStart="20sp"
+        android:layout_toEndOf="@id/profile_picture" />
+
+    <TextView
+        android:id="@+id/job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:layout_marginStart="20sp"
+        android:layout_toEndOf="@id/profile_picture" />
+
+    <TextView
+        android:id="@+id/job_years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/job_title"
+        android:layout_marginStart="20sp"
+        android:layout_toEndOf="@id/profile_picture" />
+
+    <View
+        android:id="@+id/page_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/job_years"
+        android:background="@android:color/darker_gray"/>
+
 </RelativeLayout>
